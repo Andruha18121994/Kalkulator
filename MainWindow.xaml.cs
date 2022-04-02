@@ -39,11 +39,6 @@ namespace Kalkulator
             ShowDotButton(false);
         }
 
-
-        //switch case делаем, где определяем все кнопки символами
-        //Умножаем число на 10 и прибавляем то, что нажали
-        // считать количество символов после запятой,
-        // сделать добавление символа после запятой 
         private void Button_AddSimbol(object sender, RoutedEventArgs e)
         {
             string simbol;
@@ -203,11 +198,6 @@ namespace Kalkulator
         private void ShowDotButton(bool b)
         {
             ButtonDot.IsEnabled = b;
-        }
-
-        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-
         }
     }
 }
